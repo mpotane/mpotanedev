@@ -34,7 +34,3 @@ yarn-error.log*
 
 # vercel
 .vercel
-
-# sample apps
-apps/docs
-apps/web
