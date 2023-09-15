@@ -17,6 +17,6 @@
     "prettier": "^3.0.3",
     "turbo": "latest"
   },
-  "packageManager": "bun@1.0.0",
+  "packageManager": "bun@1.0.1",
   "name": "mpotanedev"
 }
