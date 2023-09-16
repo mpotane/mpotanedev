@@ -1,10 +1,6 @@
 {
+  "name": "mpotanedev",
   "private": true,
-  "workspaces": [
-    "apps/*",
-    "packages/*",
-    "sharedConfig/*"
-  ],
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -12,11 +8,15 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\""
   },
   "devDependencies": {
-    "config-typescript": "workspace:*",
+    "config-typescript": "*",
     "eslint": "^8.49.0",
     "prettier": "^3.0.3",
     "turbo": "latest"
   },
   "packageManager": "bun@1.0.2",
-  "name": "mpotanedev"
+  "workspaces": [
+    "apps/*",
+    "packages/*",
+    "sharedConfig/*"
+  ]
 }
